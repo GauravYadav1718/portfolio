@@ -68,7 +68,7 @@ const Hero = () => {
           </button>
           <button className="border-2 border-gray-400 text-gray-300 hover:text-white hover:border-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 flex items-center gap-2 hover:bg-white/10">
             <Download size={20} />
-            <a href="./asset/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="asset/resume.pdf" target="_blank" rel="noopener noreferrer">
   Download Resume
 </a>
           </button>
