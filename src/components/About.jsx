@@ -45,7 +45,7 @@ const About = () => {
             <div className="relative max-w-md mx-auto lg:mx-0">
               <div className="relative">
                 <img 
-                  src="https://drive.google.com/file/d/1JRi2pSNpXD6CcltZb-AJC4g7kI3U1sZ-/view?usp=sharing" 
+                  src="../asset/ga.png" 
                   alt="Gaurav - Full Stack Developer"
                   className="w-full h-96 object-cover rounded-2xl shadow-2xl"
                 />
