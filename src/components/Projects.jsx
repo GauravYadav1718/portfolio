@@ -7,7 +7,7 @@ const Projects = () => {
       id: 1,
       title: 'Skills Exchange',
       description: 'MERN Stack website in which people exchange there skills and send requests for skills they want and connect with them.',
-      image: 'https://drive.google.com/file/d/1u9d9q3_3L-7L4ayNraFn5eF33dE_OCv3/view?usp=sharing?auto=compress&cs=tinysrgb&w=800',
+      image: '/project.jpg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['React', 'Node.js', 'MongoDB', 'jwt Authentication', 'Express'],
       liveUrl: 'https://projectskill1718.vercel.app',
       githubUrl: 'https://github.com/GauravYadav1718/projectskill',
