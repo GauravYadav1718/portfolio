@@ -45,7 +45,7 @@ const About = () => {
             <div className="relative max-w-md mx-auto lg:mx-0">
               <div className="relative">
                 <img 
-                  src="asset/ga.jpg" 
+                  src="/profile.png" 
                   alt="Gaurav - Full Stack Developer"
                   className="w-full h-96 object-cover rounded-2xl shadow-2xl"
                 />
