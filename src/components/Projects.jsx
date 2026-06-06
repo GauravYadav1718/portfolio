@@ -13,8 +13,29 @@ const Projects = () => {
       githubUrl: 'https://github.com/GauravYadav1718/projectskill',
       icon: ArrowLeftRight,
       featured: true
+    },
+    {
+      id: 2,
+      title: 'Tourist Assistant Agent',
+      description: 'Built structured automation pipelines using LangChain to lower token processing constraints by 30%. Developed a custom middleware wrapper for context-aware vectorized lookups and geospatial APIs.',
+      image: '/project.jpg?auto=compress&cs=tinysrgb&w=800',
+      technologies: ['Python', 'LangChain', 'RAG Systems', 'API Optimization'],
+      liveUrl: 'https://minor1-tn5i.vercel.app/',
+      githubUrl:'https://github.com/GauravYadav1718/minor1',
+      icon: Server,
+      featured: true
+    },
+    {
+      id: 3,
+      title: 'Skillo Platform',
+      description: 'Scalable full-stack web application with efficient state management and dynamic UI. Deployed on Vercel with robust API routing to ensure secure and low-latency data transactions.',
+      image: '/project.jpg?auto=compress&cs=tinysrgb&w=800',
+      technologies: ['React.js', 'Express.js', 'MERN Stack', 'RESTful APIs'],
+      liveUrl: 'https://skillo-seven.vercel.app/login', 
+      githubUrl: 'https://github.com/GauravYadav1718/skillo', 
+      icon: Smartphone,
+      featured: true
     }
-    
   ];
 
   const featuredProjects = projects.filter(project => project.featured);
@@ -50,18 +71,22 @@ const Projects = () => {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <div className="absolute bottom-4 left-4 right-4">
                         <div className="flex gap-3">
-                          <a 
-                            href={project.liveUrl}
-                            className="bg-blue-600 hover:bg-blue-700 text-white p-2 rounded-lg transition-colors duration-200"
-                          >
-                            <ExternalLink size={20} />
-                          </a>
-                          <a 
-                            href={project.githubUrl}
-                            className="bg-gray-700 hover:bg-gray-600 text-white p-2 rounded-lg transition-colors duration-200"
-                          >
-                            <Github size={20} />
-                          </a>
+                          {project.liveUrl !== '#' && (
+                            <a 
+                              href={project.liveUrl}
+                              className="bg-blue-600 hover:bg-blue-700 text-white p-2 rounded-lg transition-colors duration-200"
+                            >
+                              <ExternalLink size={20} />
+                            </a>
+                          )}
+                          {project.githubUrl !== '#' && (
+                            <a 
+                              href={project.githubUrl}
+                              className="bg-gray-700 hover:bg-gray-600 text-white p-2 rounded-lg transition-colors duration-200"
+                            >
+                              <Github size={20} />
+                            </a>
+                          )}
                         </div>
                       </div>
                     </div>
