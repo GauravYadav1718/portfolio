@@ -96,7 +96,7 @@ const About = () => {
         <div className="text-center">
           <div className="inline-flex items-center gap-8 bg-gray-800/30 rounded-2xl p-8 backdrop-blur-sm">
             <div className="text-center">
-              <div className="text-3xl font-bold text-white">2</div>
+              <div className="text-3xl font-bold text-white">3</div>
               <div className="text-gray-400 text-sm">Projects Completed</div>
             </div>
             <div className="text-center">
