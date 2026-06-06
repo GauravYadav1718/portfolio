@@ -30,7 +30,7 @@ const Projects = () => {
       title: 'Skillo Platform',
       description: 'Scalable full-stack web application with efficient state management and dynamic UI. Deployed on Vercel with robust API routing to ensure secure and low-latency data transactions.',
       image: '/image.png?auto=compress&cs=tinysrgb&w=800',
-      technologies: ['React.js', 'Express.js', 'MERN Stack', 'RESTful APIs'],
+      technologies: ['React.js', 'Python', 'LangChain', 'RAG Systems', 'API Optimization', 'RESTful APIs'],
       liveUrl: 'https://skillo-seven.vercel.app/login', 
       githubUrl: 'https://github.com/GauravYadav1718/skillo', 
       icon: Smartphone,
